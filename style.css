@@ -1,1 +1,45 @@
-header{background-color: #383D58; color: white}
+*{margin: 0;padding: 0;}
+
+body{
+    font-family: 'Poppins', sem serifa;
+}
+
+.cabecalho {
+    background-color: #383D58; 
+    color: white; 
+    display:flex; 
+    justify-content: space-around; 
+    align-items: center;
+    padding:24px 0;
+}
+
+.cabecalho-imagem{
+    width: 20%;}
+
+.cabecalho-lista-item{
+    display: inline-block; 
+    margin: 0 16px; 
+    font-size: 20px;}
+
+.foto-school{
+    width: 25%;
+    padding: 24px 0
+}
+.Escola{ 
+    background-image: linear-gradient(#383D58, #4EBFE9 );
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0
+}
+.escola-conteudo-div{
+    width: 35%; 
+}
+.sobre-a-escola{
+    padding: 24px 0
+}
+
+.foto-estudante{
+    width:120px
+}
