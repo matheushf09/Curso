@@ -37,9 +37,40 @@ body{
     width: 35%; 
 }
 .sobre-a-escola{
-    padding: 24px 0
+    padding: 24px 0;
 }
 
 .foto-estudante{
-    width:120px
+    width:120px;
+}
+.icone-imagens{
+    width: 24px;
+    padding: 4px 7px;
+
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 0 0;
+}
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+.todos-estudantes{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.dois-estudantes{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.rodape{
+    background-color: rgb(0, 0, 0); 
+    text-align: center;
+}
+.rodape-imagem{
+    height: 30px;
+    width: 10%;
+    padding: 10px 0;
 }
